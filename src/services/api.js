@@ -9,7 +9,7 @@ const API = axios.create({
 
       ? "http://localhost:5000/api"
 
-      : "YOUR_RENDER_BACKEND_URL/api"
+      : "https://ipmp-backend.onrender.com/api"
 });
 
 API.interceptors.request.use(
